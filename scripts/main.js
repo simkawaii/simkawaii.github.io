@@ -40,7 +40,7 @@ var myHeading = document.querySelector('h2');
 function setUsername() {
     var myName = prompt('Please enter your name: ');
     localStorage.setItem('name', myName);
-    myHeading.innerHTML = 'Welcom ' + myName + 'to my Web page';
+    myHeading.innerHTML = 'Welcom ' + myName + ' to my Web page';
 }
 if (!localStorage.getItem('name')) {
     setUsername();
